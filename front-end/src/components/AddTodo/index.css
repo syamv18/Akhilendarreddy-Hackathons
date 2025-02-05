@@ -1,0 +1,22 @@
+.add-todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-add-todo {
+  margin-left: 20px;
+  padding: 10px;
+  background-color: darkgreen;
+  font-weight: bold;
+  color: aliceblue;
+}
+.input-add-todo {
+  padding: 10px;
+  width: 200px;
+}

@@ -1,0 +1,39 @@
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.todo-list {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+  list-style-type: none;
+}
+
+.todo-item {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+}
+.btn-style {
+  cursor: pointer;
+  border-radius: 2px;
+  border: 2px solid red;
+  color: red;
+  padding: 7px;
+  margin-left: 20px;
+}
