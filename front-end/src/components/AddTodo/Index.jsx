@@ -22,7 +22,7 @@ const AddTodo = () => {
 
       if (response.ok) {
         setTodo(""); // Clear input field
-        setIsTodoAdded(true);
+        setIsTodoAdded(!isTodoAdded);
       }
     } catch (error) {
       console.error("Error adding todo:", error);
